@@ -1,0 +1,154 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.logo{
+  margin-left: 10px;
+  flex-shrink: 1;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.menu li{
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.menu a{
+    color: seashell;
+}
+
+.page{
+  position: relative;
+  top: 69px;
+
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("C:/Users/mrutl/OneDrive/Documents/Coding_projects/teacozy/resources/images/img-mission-background.jpg")
+}
+
+h2, h4{
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+
+.featured img{
+  height: 200px;
+  width: 300px;
+}
+
+figure{
+  margin: 15px;
+}
+
+figcaption{
+  margin: 10px;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1200px;
+  background-image: url("C:/Users/mrutl/OneDrive/Documents/Coding_projects/teacozy/resources/images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 70px;
+  margin-top: 40px;
+}
+
+.locations h2{
+  display: block;
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+}
+
+.address{
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.contact{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer{
+  margin-left: 20px;
+  text-align: left;
+}
